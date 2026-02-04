@@ -10,7 +10,10 @@ body {
   background-color: #f2f1ec;
 }
 
+#almond-background-color {
+  background-color: transparent;
+}
+
 #content-container {
   background-color: #f5f4f1;
-  border-color: #f2f1ec;
 }
