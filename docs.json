@@ -27,7 +27,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Get Started",
+      "label": "Get started",
       "href": "https://aicofounder.com/signup"
     }
   },
@@ -41,7 +41,7 @@
     ],
     "groups": [
       {
-        "group": "Get Started",
+        "group": "Get started",
         "pages": ["introduction"]
       }
     ]
