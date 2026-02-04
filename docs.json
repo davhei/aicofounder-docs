@@ -66,6 +66,10 @@
       }
     ]
   },
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
   "footer": {
     "socials": {}
   }
