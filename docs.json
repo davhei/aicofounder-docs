@@ -12,6 +12,9 @@
     "light": "#c97a66",
     "dark": "#a45139"
   },
+  "fonts": {
+    "family": "Figtree"
+  },
   "background": {
     "color": {
       "light": "#f2f1ec",
