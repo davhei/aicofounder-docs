@@ -1,0 +1,42 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "AI Cofounder",
+  "logo": {
+    "dark": "/logo-light.svg",
+    "light": "/logo-dark.svg"
+  },
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#b85c44",
+    "light": "#c97a66",
+    "dark": "#a45139",
+    "background": {
+      "light": "#f5f4f1",
+      "dark": "#1f1f1f"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "App",
+      "url": "https://aicofounder.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://aicofounder.com/signup"
+  },
+  "anchors": [
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://aicofounder.com/blog"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": ["introduction"]
+    }
+  ],
+  "footerSocials": {}
+}
