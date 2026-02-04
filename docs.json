@@ -42,7 +42,7 @@
     "groups": [
       {
         "group": "Get started",
-        "pages": ["introduction"]
+        "pages": ["index"]
       }
     ]
   },
