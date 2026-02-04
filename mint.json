@@ -5,11 +5,11 @@
     "dark": "/logo-light.svg",
     "light": "/logo-dark.svg"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "/icon.svg",
   "colors": {
-    "primary": "#333333",
-    "light": "#404040",
-    "dark": "#2e2e2e",
+    "primary": "#b85c44",
+    "light": "#c97a66",
+    "dark": "#a45139",
     "background": {
       "light": "#f2f1ec",
       "dark": "#333333"
