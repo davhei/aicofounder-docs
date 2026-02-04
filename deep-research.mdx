@@ -7,6 +7,16 @@ Deep research is aicofounder's multi-agent research system. Instead of a single 
 
 It's designed for questions that need real depth: understanding a market, evaluating competitors, figuring out regulations for a specific business, sourcing options for a physical product, or exploring a technical domain you're unfamiliar with.
 
+## Why multiple agents
+
+When a single AI tries to research a complex topic, it runs into limits quickly. It can only follow one thread at a time, so it tends to do a few searches, read a few pages, and produce a surface-level summary. The more facets a question has, the worse this gets. The AI has to split its attention across everything at once, and each area gets less depth as a result.
+
+Deep research takes a different approach. A lead agent breaks the question down into focused sub-tasks and delegates each one to a dedicated subagent. Each subagent gets its own context and works independently, so it can go deep on its specific area without competing for attention with the others. One subagent might be analyzing competitor pricing models while another is reading through community discussions about pain points in the same space.
+
+This parallel architecture means deep research can cover significantly more ground. A typical research task involves multiple agents each performing 5 to 15 searches and page reads, running simultaneously. The result is broader coverage, more sources evaluated, and better source quality assessment since each agent is focused on a narrow scope.
+
+The lead agent's job is strategy and synthesis, not searching. It plans the research, evaluates what comes back, identifies gaps, and decides whether to deploy more agents or write the final report. This separation of concerns produces better results than a single agent trying to do everything.
+
 ## How it works
 
 When your AI cofounder determines that a question needs thorough research, it proposes a research task. You'll see a summary of what it plans to investigate and can choose to approve or skip.
@@ -15,11 +25,17 @@ Once approved, the system works in three stages:
 
 1. **A lead agent plans the research.** It analyzes your question, determines whether it needs depth (multiple perspectives on one topic), breadth (many distinct sub-questions), or a focused investigation, and creates a research plan.
 
-2. **Subagents research in parallel.** The lead agent delegates specific tasks to specialized subagents. Each subagent independently searches the web and social media, reads pages, evaluates source quality, and compiles its findings. Depending on the complexity of your question, anywhere from 1 to 20 subagents may run simultaneously.
+2. **Subagents research in parallel.** The lead agent delegates specific tasks to specialized subagents. Each subagent independently searches the web and social media, reads full pages, evaluates source quality, and compiles its findings. Depending on the complexity of your question, anywhere from 1 to 20 subagents may run simultaneously.
 
 3. **The lead agent reviews and synthesizes.** Once the subagents complete their work, the lead agent reviews all findings and assesses whether the research is sufficient. If there are gaps or areas that need more depth, it spawns additional subagents to investigate further. When it's satisfied with the coverage, it resolves any conflicting information and writes a comprehensive report. A separate citations agent then verifies claims against source material and adds inline citations throughout.
 
 You can watch the process in real time. Each subagent shows its current status and the sources it has found as it works.
+
+## Source quality and citations
+
+Each subagent is trained to evaluate the sources it encounters. It distinguishes between original sources and aggregators, flags speculation or marketing language, and prioritizes recent, high-quality information. When multiple sources conflict, the lead agent applies its own judgment based on recency, consistency, and source reliability.
+
+The final report includes inline citations so you can trace any claim back to its source. These are added by a dedicated citations agent that cross-references the report against the raw source material to ensure accuracy.
 
 ## When to use deep research
 
@@ -49,8 +65,6 @@ This gives you control over when credits are spent on research. Deep research is
 
 ## Working with research findings
 
-When research completes, the report is added to your conversation as a detailed, cited document. Citations appear inline so you can verify specific claims against their sources.
-
-Your AI cofounder will then synthesize the key findings, explain what they mean for your project, and suggest a concrete next step. Research findings often lead to new documents on the canvas capturing the important takeaways, or inform decisions about what to build, how to position your product, or what to investigate next.
+When research completes, the report is added to your conversation as a detailed, cited document. Your AI cofounder will then explain what the findings mean for your project and suggest a concrete next step. Research findings often lead to new documents on the canvas capturing the important takeaways, or inform decisions about what to build, how to position your product, or what to investigate next.
 
 Each research task is focused on one specific topic. If a report surfaces something that needs deeper investigation, your AI cofounder will propose a follow-up research task focused on that area rather than trying to cover everything at once.
