@@ -45,7 +45,19 @@
     "groups": [
       {
         "group": "Get started",
-        "pages": ["index"]
+        "pages": ["index", "quickstart"]
+      },
+      {
+        "group": "Core features",
+        "pages": ["canvas", "chat", "ultraplan", "research", "brainstorming", "documents", "notes", "websites", "content-calendar"]
+      },
+      {
+        "group": "Publishing & sharing",
+        "pages": ["publishing", "collaboration", "exporting"]
+      },
+      {
+        "group": "Account & billing",
+        "pages": ["credits", "plans", "privacy", "settings"]
       }
     ]
   },
