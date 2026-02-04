@@ -1,16 +1,52 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Documentation",
+  "name": "aicofounder",
+  "logo": {
+    "light": "/logo-dark.svg",
+    "dark": "/logo-light.svg"
+  },
+  "favicon": "/icon.svg",
   "colors": {
-    "primary": "#0D9373"
+    "primary": "#b85c44",
+    "light": "#c97a66",
+    "dark": "#a45139"
+  },
+  "background": {
+    "color": {
+      "light": "#f2f1ec",
+      "dark": "#333333"
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "App",
+        "href": "https://aicofounder.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://aicofounder.com/signup"
+    }
   },
   "navigation": {
+    "anchors": [
+      {
+        "anchor": "Blog",
+        "href": "https://aicofounder.com/blog",
+        "icon": "newspaper"
+      }
+    ],
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": []
+        "group": "Get Started",
+        "pages": ["introduction"]
       }
     ]
+  },
+  "footer": {
+    "socials": {}
   }
 }
