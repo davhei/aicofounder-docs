@@ -7,31 +7,37 @@ Ultraplan is how aicofounder does strategic planning. It's a dedicated planning 
 
 It's not a product roadmap or a generic startup checklist. Ultraplan looks at what actually exists in your project right now and figures out what needs to happen next.
 
-## Why constraint-focused planning
+## Why a dedicated planning agent
 
-Most planning tools try to map out the entire journey from idea to launch. The problem is that detailed plans for later stages are almost always wrong, because the situation changes as you learn more. You end up spending time planning things that won't happen the way you expected.
+During a conversation, your AI cofounder is focused on the immediate task: answering your question, working through a problem, executing the current step. That's exactly what you want most of the time. But strategic planning requires something different. It requires stepping back from the day-to-day and looking at the full picture with fresh eyes.
 
-Ultraplan takes a different approach based on a simple insight: at any point in a project, exactly one constraint limits progress more than all others. Working on anything else before addressing that constraint is wasted effort. A clothing brand can't optimize their store conversion if they haven't validated their designs. A software product can't build distribution if the core user problem isn't clear.
+That's why ultraplan is a separate agent. When it's time to plan, your AI cofounder hands off to the ultraplan agent with two things: the full contents of your canvas (every document, every note, every piece of research) and context about why planning is needed right now, including any recent decisions or concerns from your conversation.
 
-So instead of planning everything, ultraplan focuses entirely on finding that one constraint and creating a plan to break it. The current phase gets detailed, actionable tasks. Future phases get directional sketches that will be revisited when the constraint shifts.
+The ultraplan agent has no conversation history to anchor to. It sees only what exists on the canvas and the context it was given. This is intentional. It means the agent can assess the project honestly, without being influenced by the flow of a conversation or anchored to what was discussed most recently. It takes a step back, considers everything, and thinks deeply about where the project actually stands and what should happen next.
+
+## Constraint-focused thinking
+
+Most planning tries to map out the entire journey from idea to launch. The problem is that detailed plans for later stages are almost always wrong, because the situation changes as you learn more.
+
+Ultraplan is built on a different insight: at any point in a project, exactly one constraint limits progress more than all others. Working on anything else before addressing that constraint is wasted effort. A clothing brand can't optimize their store conversion if they haven't validated their designs. A software product can't build distribution if the core user problem isn't clear.
+
+So instead of planning everything, ultraplan focuses entirely on finding that one constraint and creating a plan to break it. The current phase gets detailed, actionable tasks. Future phases get directional sketches that will be revisited once the constraint shifts. This keeps planning honest and grounded in what's actually true right now, rather than what you hope will be true later.
 
 ## How it works
 
-When your AI cofounder needs to do strategic planning, it calls the ultraplan agent. This happens at key moments: when starting a new project, after a phase completes, when research changes the picture, or when you hit an unexpected blocker.
+When your AI cofounder calls the ultraplan agent, it works through a structured assessment:
 
-The ultraplan agent reads your entire canvas to understand the current state of the project. It looks at what documents exist, what's been validated versus assumed, what research has been done, and where things stand. Then it works through a structured process:
+1. **Assess the current state.** What actually exists? What's been validated through research or real-world evidence? What's still an assumption? Ultraplan is direct about the difference between what's known and what's hoped for.
 
-1. **Assess the current state.** What actually exists? What's been validated? What's still an assumption? Ultraplan is honest about what's known versus what's hoped for.
+2. **Identify the constraint.** Not just what feels like the biggest problem, but what's actually blocking progress. It works through diagnostic questions: What would need to be true for this project to succeed? Which assumption has the least evidence? Which, if wrong, makes everything else irrelevant? Is this the root cause, or a symptom of something deeper?
 
-2. **Identify the constraint.** Not just what feels like the biggest problem, but what's actually blocking progress. It asks diagnostic questions: What would need to be true for this project to succeed? Which assumption has the least evidence? Which, if wrong, makes everything else irrelevant? Is this the root cause or a symptom of something deeper?
+3. **Plan the current phase.** A detailed plan with a clear objective, specific tasks, completion criteria, and risks. Each task specifies what needs to be done, what it produces, and how it contributes to breaking the constraint. Tasks are designed to be worked through one at a time, sequentially, so findings from each step can inform what comes next.
 
-3. **Plan the current phase.** A detailed plan with a clear objective, specific tasks, completion criteria, and risks. Each task specifies what needs to be done, what it produces, and how it contributes to breaking the constraint.
-
-4. **Sketch future phases.** One or two sentences about what likely comes next, without detailed planning. These sketches exist for directional awareness, not commitment.
+4. **Sketch future phases.** One or two sentences about what likely comes next, without detailed planning. These sketches are for directional awareness only. They will change once the current constraint is broken and a new one emerges.
 
 ## The plan document
 
-The output of ultraplanning becomes the plan document on your canvas. This is a living document with a compass icon that serves as your project's roadmap. It contains:
+The output of ultraplanning becomes the plan document on your canvas. This is a living document that serves as your project's roadmap. It contains:
 
 - The identified constraint and why it matters
 - The current phase objective and completion criteria
@@ -44,7 +50,7 @@ You can check off tasks directly on the canvas as they're completed. Your AI cof
 
 Ultraplan produces recommendations, not mandates. After ultraplanning completes, your AI cofounder walks you through the results: what constraint was identified, the proposed phase, and the specific tasks. You discuss it, add context the AI might not have, and agree on the plan before anything is committed to the plan document.
 
-This matters because you often have information that isn't captured on the canvas. Maybe you've had conversations with potential customers, or you know something about your market that changes the picture. The plan should reflect what you both know, not just what the AI can see.
+This matters because you often have information that isn't captured on the canvas yet. Maybe you've had conversations with potential customers, or you know something about your market that changes the picture. Your AI cofounder passes this kind of context along when calling ultraplan, but the discussion afterward is where you make sure the plan reflects what you both know.
 
 ## When ultraplanning happens
 
@@ -56,15 +62,3 @@ Ultraplan runs at natural inflection points in your project:
 - **When things change.** New information, a pivot, an unexpected blocker. Anything that might shift the constraint is a reason to replan.
 
 Each time ultraplan runs, it reassesses the situation from scratch rather than building on the previous plan. Constraints shift as phases complete, and the plan should always reflect reality as it currently exists.
-
-## What makes a good phase plan
-
-A well-designed ultraplan phase has a few key properties:
-
-- **A clear objective.** One phase, one focus. What specific question are you answering or capability are you creating?
-- **Observable completion criteria.** Not "feel confident about the market" but "have evidence from research and customer conversations showing whether the problem is real and who experiences it most."
-- **Only necessary tasks.** Everything in the plan directly contributes to breaking the constraint. No busywork.
-- **Tasks you work through together.** Your AI cofounder guides you through each task, even ones that require your direct involvement like customer conversations or business decisions.
-- **Acknowledgment of risks.** What could go wrong, and what's the fallback if a key task produces unexpected results.
-
-Phases are kept as short as possible while still being meaningful. Shorter phases mean faster reassessment and more chances to course-correct.
