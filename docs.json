@@ -53,7 +53,7 @@
           },
           {
             "group": "Core features",
-            "pages": ["canvas", "chat", "ultraplan", "deep-research", "brainstorming", "documents", "notes", "websites", "content-calendar"]
+            "pages": ["canvas", "chat", "brainstorming", "ultraplan", "deep-research", "documents", "notes", "websites", "content-calendar"]
           },
           {
             "group": "Publishing & sharing",
