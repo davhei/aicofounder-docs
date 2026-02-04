@@ -4,7 +4,8 @@
   "name": "aicofounder",
   "logo": {
     "light": "/logo-dark.svg",
-    "dark": "/logo-light.svg"
+    "dark": "/logo-light.svg",
+    "href": "https://aicofounder.com"
   },
   "favicon": "/icon.svg",
   "colors": {
