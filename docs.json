@@ -60,16 +60,16 @@
             "pages": ["chat", "brainstorming", "ultraplan", "deep-research"]
           },
           {
-            "group": "Websites",
+            "group": "Building websites",
             "pages": ["websites", "publishing"]
           },
           {
-            "group": "Content calendar",
+            "group": "Marketing",
             "pages": ["content-calendar"]
           },
           {
-            "group": "Collaboration & export",
-            "pages": ["collaboration", "exporting"]
+            "group": "Sharing",
+            "pages": ["collaboration", "export"]
           },
           {
             "group": "Account & billing",
