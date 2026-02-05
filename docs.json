@@ -73,7 +73,7 @@
           },
           {
             "group": "Account & billing",
-            "pages": ["privacy-mode", "credits", "plans", "settings"]
+            "pages": ["privacy-mode", "plans-and-credits", "settings"]
           }
         ]
       }
