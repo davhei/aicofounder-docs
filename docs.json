@@ -52,16 +52,28 @@
             "pages": ["index", "quickstart"]
           },
           {
-            "group": "Core features",
-            "pages": ["canvas", "chat", "brainstorming", "ultraplan", "deep-research", "documents", "notes", "websites", "content-calendar"]
+            "group": "Your workspace",
+            "pages": ["canvas", "documents", "notes", "sections"]
           },
           {
-            "group": "Publishing & sharing",
-            "pages": ["publishing", "collaboration", "exporting"]
+            "group": "Working with your AI",
+            "pages": ["chat", "brainstorming", "ultraplan", "deep-research"]
+          },
+          {
+            "group": "Websites",
+            "pages": ["websites", "publishing"]
+          },
+          {
+            "group": "Content calendar",
+            "pages": ["content-calendar"]
+          },
+          {
+            "group": "Collaboration & export",
+            "pages": ["collaboration", "exporting"]
           },
           {
             "group": "Account & billing",
-            "pages": ["credits", "plans", "privacy", "settings"]
+            "pages": ["credits", "plans", "privacy-mode", "settings"]
           }
         ]
       }
