@@ -86,7 +86,6 @@
   "seo": {
     "metatags": {
       "og:site_name": "aicofounder",
-      "og:image": "/images/og-background.png",
       "og:description": "Learn how to use aicofounder to research, plan, and build your product",
       "twitter:card": "summary_large_image"
     }
