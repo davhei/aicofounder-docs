@@ -7,6 +7,8 @@ Deep research is aicofounder's multi-agent research system. Instead of a single 
 
 It's designed for questions that need real depth: understanding a market, evaluating competitors, figuring out regulations for a specific business, sourcing options for a physical product, or exploring a technical domain you're unfamiliar with.
 
+<img src="/images/deep-research-approval.png" alt="Deep research approval card" className="w-full rounded-lg" style={{border: '1px solid #b3b3b3'}} />
+
 ## Why multiple agents
 
 When a single AI tries to research a complex topic, it runs into limits quickly. It can only follow one thread at a time, so it tends to do a few searches, read a few pages, and produce a surface-level summary. The more facets a question has, the worse this gets. The AI has to split its attention across everything at once, and each area gets less depth as a result.
@@ -31,11 +33,15 @@ Once approved, the system works in three stages:
 
 You can watch the process in real time. Each subagent shows its current status and the sources it has found as it works.
 
+<img src="/images/deep-research-in-progress.png" alt="Deep research in progress" className="w-full rounded-lg" style={{border: '1px solid #b3b3b3'}} />
+
 ## Source quality and citations
 
 Each subagent is trained to evaluate the sources it encounters. It distinguishes between original sources and aggregators, flags speculation or marketing language, and prioritizes recent, high-quality information. When multiple sources conflict, the lead agent applies its own judgment based on recency, consistency, and source reliability.
 
 The final report includes inline citations so you can trace any claim back to its source. These are added by a dedicated citations agent that cross-references the report against the raw source material to ensure accuracy.
+
+<img src="/images/deep-research-report.png" alt="Deep research report with citations" className="w-full rounded-lg" style={{border: '1px solid #b3b3b3'}} />
 
 ## When to use deep research
 
@@ -70,3 +76,5 @@ When research completes, the full report is added as a document on your canvas. 
 After processing the findings, your AI cofounder will discuss what they mean for your project and suggest a concrete next step. This might be another research task to go deeper on something the report surfaced, or it might be time to start making decisions based on what you've learned.
 
 Each research task is focused on one specific topic rather than trying to cover everything at once. This keeps reports focused and actionable, and lets you build up a body of research over time as your project evolves.
+
+<img src="/images/deep-research-collected-reports.png" alt="Research documents on canvas" className="w-full rounded-lg" style={{border: '1px solid #b3b3b3'}} />
