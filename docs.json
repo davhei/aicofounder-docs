@@ -88,8 +88,8 @@
       "og:site_name": "aicofounder",
       "og:description": "Learn how to use aicofounder to research, plan, and build your product",
       "twitter:card": "summary_large_image",
-      "article:author": "aicofounder",
-      "article:published_time": "2026-02-06"
+      "author": "aicofounder",
+      "article:published_time": "2026-02-06T00:00:00+00:00"
     }
   },
   "footer": {
