@@ -87,9 +87,7 @@
     "metatags": {
       "og:site_name": "aicofounder",
       "og:description": "Learn how to use aicofounder to research, plan, and build your product",
-      "twitter:card": "summary_large_image",
-      "author": "aicofounder",
-      "article:published_time": "2026-02-06T00:00:00+00:00"
+      "twitter:card": "summary_large_image"
     }
   },
   "footer": {
