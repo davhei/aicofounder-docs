@@ -15,21 +15,29 @@ mode: "frame"
 
   {/* TODO: Add app screenshot here */}
 
-  <div className="px-6 lg:px-0 mt-12 lg:mt-20 grid sm:grid-cols-2 gap-x-6 gap-y-4">
-    <Card title="Canvas" img="/images/canvas.png" href="/canvas">
-      Your infinite workspace where documents, research, websites, and notes come together
-    </Card>
+  <div className="px-6 lg:px-0 mt-12 lg:mt-20 grid sm:grid-cols-2 gap-x-8 gap-y-10">
+    <a href="/canvas" className="block group">
+      <img src="/images/canvas.webp" alt="Canvas" className="w-full rounded-xl" />
+      <h3 className="mt-4 font-semibold text-gray-900">Canvas</h3>
+      <p className="mt-1 text-gray-500">Your infinite workspace where documents, research, websites, and notes come together</p>
+    </a>
 
-    <Card title="Ultraplan" img="/images/ultraplan.png" href="/ultraplan">
-      Strategic planning that identifies what's blocking your project and creates a path forward
-    </Card>
+    <a href="/ultraplan" className="block group">
+      <img src="/images/ultraplan.webp" alt="Ultraplan" className="w-full rounded-xl" />
+      <h3 className="mt-4 font-semibold text-gray-900">Ultraplan</h3>
+      <p className="mt-1 text-gray-500">Strategic planning that identifies what's blocking your project and creates a path forward</p>
+    </a>
 
-    <Card title="Deep Research" img="/images/deep-research.png" href="/deep-research">
-      AI agents search the web and online communities to produce detailed, cited reports
-    </Card>
+    <a href="/deep-research" className="block group">
+      <img src="/images/deep-research.webp" alt="Deep Research" className="w-full rounded-xl" />
+      <h3 className="mt-4 font-semibold text-gray-900">Deep Research</h3>
+      <p className="mt-1 text-gray-500">AI agents search the web and online communities to produce detailed, cited reports</p>
+    </a>
 
-    <Card title="Websites" img="/images/websites.png" href="/websites">
-      Build, preview, and publish websites with a code editor and email capture
-    </Card>
+    <a href="/websites" className="block group">
+      <img src="/images/websites.webp" alt="Websites" className="w-full rounded-xl" />
+      <h3 className="mt-4 font-semibold text-gray-900">Websites</h3>
+      <p className="mt-1 text-gray-500">Build, preview, and publish websites with a code editor and email capture</p>
+    </a>
   </div>
 </div>
