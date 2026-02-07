@@ -90,10 +90,10 @@
       "twitter:card": "summary_large_image"
     }
   },
-  "analytics": {
+  "integrations": {
     "plausible": {
       "domain": "aicofounder.com",
-      "server": "https://plausible.aicofounder.com"
+      "server": "plausible.aicofounder.com"
     }
   },
   "footer": {
