@@ -90,6 +90,12 @@
       "twitter:card": "summary_large_image"
     }
   },
+  "analytics": {
+    "plausible": {
+      "domain": "aicofounder.com",
+      "server": "https://plausible.aicofounder.com"
+    }
+  },
   "footer": {
     "socials": {}
   }
