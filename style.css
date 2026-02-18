@@ -19,18 +19,6 @@ body {
   border-color: #d9d9d9;
 }
 
-#content-container:has([data-page-href="/index"]) {
-  background-image:
-    linear-gradient(to bottom,
-      transparent 250px,
-      #f5f4f1 500px
-    ),
-    radial-gradient(circle, rgba(200, 197, 190, 0.4) 2px, transparent 2px);
-  background-size: 100%, 40px 40px;
-  background-position: 0 0, 25px 30px;
-  background-attachment: local;
-}
-
 [data-rmiz-modal-img] {
   border-radius: 1rem;
 }
