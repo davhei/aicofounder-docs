@@ -22,10 +22,8 @@ body {
 #content-container:has([data-page-href="/index"]) {
   background-image:
     linear-gradient(to bottom,
-      #f5f4f1 160px,
-      transparent 300px,
-      transparent 480px,
-      #f5f4f1 620px
+      transparent 250px,
+      #f5f4f1 500px
     ),
     radial-gradient(circle, rgba(200, 197, 190, 0.4) 2px, transparent 2px);
   background-size: 100%, 40px 40px;
