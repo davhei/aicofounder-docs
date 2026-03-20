@@ -9,9 +9,9 @@
   },
   "favicon": "/icon.svg",
   "colors": {
-    "primary": "#b85c44",
-    "light": "#c97a66",
-    "dark": "#a45139"
+    "primary": "#c47338",
+    "light": "#d38648",
+    "dark": "#a8612e"
   },
   "fonts": {
     "family": "Figtree"
