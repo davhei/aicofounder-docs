@@ -1,10 +1,10 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "aicofounder docs",
+  "name": "ai cofounder docs",
   "logo": {
-    "light": "/logo-dark.svg",
-    "dark": "/logo-light.svg",
+    "light": "/logo.svg",
+    "dark": "/logo.svg",
     "href": "https://aicofounder.com"
   },
   "favicon": "/icon.svg",
@@ -85,8 +85,8 @@
   },
   "seo": {
     "metatags": {
-      "og:site_name": "aicofounder docs",
-      "og:description": "aicofounder is an AI for building products. Describe what you want to create and it helps you think it through, research it, build it, and move forward.",
+      "og:site_name": "ai cofounder docs",
+      "og:description": "ai cofounder is an AI for building products. Describe what you want to create and it helps you think it through, research it, build it, and move forward.",
       "twitter:card": "summary_large_image",
       "canonical": "https://aicofounder.com/docs"
     }
