@@ -9,17 +9,15 @@
   },
   "favicon": "/icon.svg",
   "colors": {
-    "primary": "#c47338",
-    "light": "#d38648",
-    "dark": "#a8612e"
+    "primary": "#f2efe8",
+    "dark": "#26251e"
   },
   "fonts": {
     "family": "Figtree"
   },
   "background": {
     "color": {
-      "light": "#f2f1ec",
-      "dark": "#333333"
+      "light": "#f9f7f2"
     }
   },
   "navbar": {
