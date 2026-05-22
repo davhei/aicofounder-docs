@@ -19,10 +19,6 @@ body {
   border-color: #e6e2d8;
 }
 
-#content-container img {
-  border-color: #dbd6ca;
-}
-
 [data-rmiz-modal-img] {
   border-radius: 1rem;
 }
