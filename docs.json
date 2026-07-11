@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "ai cofounder docs",
+  "name": "Buildpad docs",
   "logo": {
     "light": "/logo.svg",
     "dark": "/logo.svg",
-    "href": "https://aicofounder.com"
+    "href": "https://buildpad.io"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -24,20 +24,20 @@
     "links": [
       {
         "label": "App",
-        "href": "https://aicofounder.com"
+        "href": "https://buildpad.io"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Get started",
-      "href": "https://aicofounder.com/signup"
+      "href": "https://buildpad.io/signup"
     }
   },
   "navigation": {
     "anchors": [
       {
         "anchor": "Blog",
-        "href": "https://aicofounder.com/blog",
+        "href": "https://buildpad.io/blog",
         "icon": "newspaper"
       }
     ],
@@ -83,16 +83,16 @@
   },
   "seo": {
     "metatags": {
-      "og:site_name": "ai cofounder docs",
-      "og:description": "ai cofounder is an AI for building products. Describe what you want to create and it helps you think it through, research it, build it, and move forward.",
+      "og:site_name": "Buildpad docs",
+      "og:description": "Buildpad is an AI for building products. Describe what you want to create and it helps you think it through, research it, build it, and move forward.",
       "twitter:card": "summary_large_image",
-      "canonical": "https://aicofounder.com/docs"
+      "canonical": "https://buildpad.io/docs"
     }
   },
   "integrations": {
     "plausible": {
-      "domain": "aicofounder.com",
-      "server": "plausible.aicofounder.com"
+      "domain": "buildpad.io",
+      "server": "plausible.buildpad.io"
     }
   },
   "footer": {
