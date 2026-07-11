@@ -84,7 +84,7 @@
   "seo": {
     "metatags": {
       "og:site_name": "Buildpad docs",
-      "og:description": "Buildpad is an AI for building products. Describe what you want to create and it helps you think it through, research it, build it, and move forward.",
+      "og:description": "Buildpad is a platform for building products. Describe what you want to create and it helps you think it through, research it, build it, and move forward.",
       "twitter:card": "summary_large_image",
       "canonical": "https://buildpad.io/docs"
     }
